@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+
+.row footer{
+	background-color: #f5f7fb;
+    padding: 100px 0;
+}
+.footer h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+	color: #181616;
+	font-weight: 1000;
+    text-align: center;
+    background-color:rgb(238, 235, 147);
+}
+.footer h5{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+	color: #181616;
+	font-weight: 3000;
+    text-align: center;
+    background-color: rgb(238, 235, 147);
+}
+.row .footer-col{
+   width: 25%;
+   padding: 0 0px;
+   margin-top: 10px;
+}
+
+.footer-col img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-col h1{
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: #181616;
+	margin-bottom: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer-col h3{
+	font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+	color: #0a0909;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+    margin-top: 5px
+	font-weight: ;
+	position: relative;
+    text-align: center;
+
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 20px;
+	width: 20%;
+	background-color: rgba(255,255,255,0.2);
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+}
+.a{
+text-align: center;
+}
+.kbutton{
+        border: none;
+        color: rgb(250, 242, 242);
+        border: 2px rgb(160, 38, 17);
+        background-color: rgb(160, 38, 17);
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+
+
